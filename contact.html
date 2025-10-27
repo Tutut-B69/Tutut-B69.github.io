@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gian Ananda Virja — Kontak</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">Gian Ananda Virja</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section alt" id="contact">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Ingin bekerja sama atau bertanya sesuatu? Isi form berikut atau kirim email langsung.</p>
+
+      <form id="contact-form" class="contact-form">
+        <label>
+          Nama
+          <input type="text" name="name" placeholder="Nama Anda" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          Pesan
+          <textarea name="message" rows="5" placeholder="Halo..." required></textarea>
+        </label>
+        <div class="form-row">
+          <button type="submit" class="btn primary">Kirim</button>
+          <a class="btn outline" href="mailto:giananandav@gmail.com">Kirim lewat Email</a>
+        </div>
+        <p class="form-msg" id="form-msg" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="footer-year"></span> Gian Ananda Virja. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

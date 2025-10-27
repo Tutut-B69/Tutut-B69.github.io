@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gian Ananda Virja — Beranda</title>
+  <meta name="description" content="Beranda Gian Ananda Virja — Web Developer / Designer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Gian Ananda Virja</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menu-toggle" class="menu-toggle" aria-label="toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Halo, saya <span id="hero-name">Gian Ananda Virja</span>.</h1>
+          <p class="lead">Saya mahasiswa Teknik Informatika di Institut Teknologi PLN. Fokus saya: web development, UI/UX, dan pengembangan game 2D.</p>
+          <div class="cta-row">
+            <a href="portfolio.html" class="btn primary">Lihat Projek</a>
+            <a href="contact.html" class="btn outline">Hubungi</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="Screenshot (8) - Copy.png" alt="Foto Gian" id="profile-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <h2>Tentang Saya</h2>
+        <p>Saya berasal dari Jakarta. Pendidikan: S1 Teknik Informatika — Institut Teknologi PLN. Minat utama saya meliputi Web Development, Mobile App, UI/UX, dan Game Development (Unity 2D).</p>
+        <ul class="about-list">
+          <li><strong>Lokasi:</strong> Jakarta Barat</li>
+          <li><strong>Pekerjaan:</strong> Game Developer</li>
+          <li><strong>Email:</strong> <a href="mailto:giananandav@gmail.com">giananandav@gmail.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-row">
+          <div class="skill">
+            <h4>HTML &amp; CSS</h4>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>JavaScript</h4>
+            <div class="bar"><span style="width:80%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>PHP & MySQL</h4>
+            <div class="bar"><span style="width:70%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>Unity (Dasar)</h4>
+            <div class="bar"><span style="width:60%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="footer-year"></span> Gian Ananda Virja. All rights reserved.</p>
+      <div class="footer-link">
+        LINK PENTING: <a href="https://itpln.ac.id/" target="_blank" rel="noopener noreferrer">ITPLN</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
